@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "MMS3 Hat Template (Change Me :3)")
+		(title "MMS3_hat_GPIO_board")
 		(date "2137-02-25")
 		(rev "R0")
 		(comment 1 "Made by Wojciech Szafrański")
@@ -187,18 +187,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fbef4ef9-2acf-405b-99b1-e13368591bef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C469874"
 			(at 0 0 270)
 			(unlocked yes)
@@ -229,6 +217,14 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/ea0818b2-de8c-4aec-8374-8a3cb662fcef")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "4" "7" "8" "11" "14" "17" "18" "21" "22" "1" "13" "24" "12"
+					"2" "5" "6" "9" "10" "15" "16" "19" "20" "23"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -659,411 +655,6 @@
 			)
 		)
 	)
-	(footprint "XT60:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-		(layer "F.Cu")
-		(uuid "1f538bae-968e-4d06-acd0-d9d1c5bcbc53")
-		(at 106.9 127.456505 180)
-		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf")
-		(tags "RC Connector XT60")
-		(property "Reference" "J5"
-			(at -4 -9.95 0)
-			(layer "F.SilkS")
-			(uuid "ffb6c02b-f7e1-4360-bcb3-54eb472e043e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "AMASS XT60 Female"
-			(at -3.6 4 0)
-			(layer "F.Fab")
-			(uuid "b6ce1e7a-2673-4b9c-bdb4-3ac6d423747d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce96bae3-5bb2-4fe5-8235-9ed0cecbcfd4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e64414fa-e227-4f86-9bed-2a53dade934e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C428722"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75e8b3dd-b072-409b-8062-8e2de26a0651")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dafb54c6-8b29-43f5-8c3f-cd20c5f53b67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f11c3b61-ae6a-4858-9d37-bbf426f44fb0/3b4bf1a3-9299-4a0f-a632-011cd216f9dc")
-		(sheetname "/Power Connector/")
-		(sheetfile "Power_Connector.kicad_sch")
-		(attr through_hole exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 4.26 -7.76)
-			(end 4.26 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aa88e8d3-814b-450f-8be3-4ba5aec3cf63")
-		)
-		(fp_line
-			(start 3.41 -7.76)
-			(end 4.26 -7.76)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c60c9680-20ed-4747-bb96-4540e82f01d9")
-		)
-		(fp_line
-			(start 3.41 -15.46)
-			(end 3.41 -7.76)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b479ff29-db25-4129-a4c1-0ca54697e9c3")
-		)
-		(fp_line
-			(start -6.05 1.96)
-			(end -2.31 1.96)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c40e2529-b514-44ab-b728-66d783110d74")
-		)
-		(fp_line
-			(start -10.61 -15.46)
-			(end 3.41 -15.46)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae8e8e9e-9f17-4b90-9ff1-9a1126659555")
-		)
-		(fp_line
-			(start -10.61 -15.46)
-			(end -10.61 -7.76)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "820297a5-c701-46d3-a88d-f7bab025e9c5")
-		)
-		(fp_line
-			(start -11.46 -7.76)
-			(end -10.61 -7.76)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6dfc7200-f49a-414f-8c27-47815abbc719")
-		)
-		(fp_line
-			(start -11.46 -7.76)
-			(end -11.46 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d723093b-c8d3-46b9-9ed5-a269c7f54805")
-		)
-		(fp_arc
-			(start 4.26 -2.15)
-			(mid 3.727162 -0.126139)
-			(end 2.266806 1.372958)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "24f7528d-33ab-4bb6-b288-f43a0fb302bb")
-		)
-		(fp_arc
-			(start -8.5899 1.808718)
-			(mid -10.677645 0.302568)
-			(end -11.46 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aae6269a-c296-4029-9727-f7fd814e6b9a")
-		)
-		(fp_line
-			(start 4.65 2.55)
-			(end 4.65 -15.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "411e969c-e7a7-4698-b335-ef147a651d2f")
-		)
-		(fp_line
-			(start 4.65 2.55)
-			(end -11.85 2.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c72a871d-9349-414e-be33-9589c5d5af46")
-		)
-		(fp_line
-			(start -11.85 -15.85)
-			(end 4.65 -15.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "29eee526-fdef-4c38-a1a9-0b76405c90ba")
-		)
-		(fp_line
-			(start -11.85 -15.85)
-			(end -11.85 2.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8fc29459-ef79-4380-9d08-3207d66b16f4")
-		)
-		(fp_line
-			(start 4.15 -7.65)
-			(end 4.15 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "20cb4aae-28e7-42e0-acc8-60eeccb943d2")
-		)
-		(fp_line
-			(start 3.3 -7.65)
-			(end 3.3 -15.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "61058cd0-df86-4ffb-b126-fb1c62257fa5")
-		)
-		(fp_line
-			(start -7.35 1.85)
-			(end 0.15 1.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b9790cd5-f565-4af2-949a-2ab33da0a4fa")
-		)
-		(fp_line
-			(start -10.5 -7.65)
-			(end -10.5 -15.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "01b8ce4e-f8e7-406a-9e3e-61bd432835c8")
-		)
-		(fp_line
-			(start -10.5 -15.35)
-			(end 3.3 -15.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "aa8e7b72-588d-45a0-808b-e9d96eb8fbca")
-		)
-		(fp_line
-			(start -11.35 -7.65)
-			(end 4.15 -7.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a5807039-5b5f-4d83-acef-7af141767ccb")
-		)
-		(fp_line
-			(start -11.35 -7.65)
-			(end -11.35 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7b96dec4-1b20-4c3e-8b27-65654675470e")
-		)
-		(fp_arc
-			(start 4.15 -2.15)
-			(mid 2.978427 0.678427)
-			(end 0.15 1.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7bca9d02-a01f-4837-8ca1-484504beb0a2")
-		)
-		(fp_arc
-			(start -7.385 1.885)
-			(mid -10.203176 0.688678)
-			(end -11.35 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2d5d1512-14c9-44d0-ab9b-e37344060b84")
-		)
-		(fp_text user "-"
-			(at 2.8 2.5 0)
-			(layer "F.SilkS")
-			(uuid "69926b63-281b-4bda-91aa-e968e92ff171")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "+"
-			(at -9.5 2.5 0)
-			(layer "F.SilkS")
-			(uuid "ae71af77-6f47-42f6-9f81-a7ae8a5980c3")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at -3.6 -3.6 0)
-			(layer "F.Fab")
-			(uuid "f9d51c26-82fb-4de3-a2c2-29841d6733b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" thru_hole rect
-			(at -10.35 -6 180)
-			(size 0.9 2)
-			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "e9806157-0d84-410a-8794-6da31bc2f78e")
-		)
-		(pad "" thru_hole rect
-			(at 3.15 -6 180)
-			(size 0.9 2)
-			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "a948d958-fa4d-40f1-93a9-60c6510b9406")
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0 180)
-			(size 4.1 4.1)
-			(drill 2.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "daabdbcf-7c12-4be2-822b-77cd89c33d3d")
-		)
-		(pad "2" thru_hole circle
-			(at -7.2 0 180)
-			(size 4.1 4.1)
-			(drill 2.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/Power Connector/VIN_BRD")
-			(pinfunction "Pin_2_2")
-			(pintype "passive")
-			(uuid "d505ef4c-67a8-412b-aec6-134ec378c703")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/XT60_STEP_Female.3dshapes/TH_2P-XT60PW-F.step"
-			(offset
-				(xyz -3.5 6.8 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-	)
 	(footprint "PCM_JLCPCB:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
 		(layer "F.Cu")
 		(uuid "2d371ea1-73fa-40aa-8c55-b2f6a6f2b80d")
@@ -1367,6 +958,12 @@
 		(path "/ce45453a-584b-44f7-9b99-fc79de0fe678")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1632,18 +1229,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e4789d93-0910-4cca-a4c3-90aeb3f82eb4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -1661,6 +1246,12 @@
 		(path "/c8ce61d0-35b4-429d-8aa1-236fd73ec981")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1774,18 +1365,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "083c9dff-85c1-4e83-95a2-4e90c7a136a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -1803,6 +1382,15 @@
 		(path "/fdb595ff-e94b-4e80-8fe7-e7d367588ab2/6261b855-1184-4e82-82fb-fce65cc65719")
 		(sheetname "/Interboard_connector/")
 		(sheetfile "Interboard_connector.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27"
+					"29" "31" "2" "4" "6" "8" "10" "12" "14" "16" "18" "20" "22" "24" "26"
+					"28" "30" "32"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3791,6 +3379,12 @@
 		(path "/d8b1db0a-b800-4084-a024-52a0c121e448")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -3916,341 +3510,6 @@
 			)
 		)
 	)
-	(footprint "XT60:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-		(layer "F.Cu")
-		(uuid "4fd2468f-3cdb-460c-b438-4161637f2763")
-		(at 97.55 126.456505 180)
-		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf")
-		(tags "RC Connector XT60")
-		(property "Reference" "J4"
-			(at 3.35 -10.65 0)
-			(layer "F.SilkS")
-			(uuid "0ac1609e-2c30-4517-97af-0b28ce87e43c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "AMASS XT60 Male"
-			(at 3.6 4 0)
-			(layer "F.Fab")
-			(uuid "6e717068-3e51-4df6-8af7-c998ef3aff45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4edc869-9401-494a-8a01-2c695e31a662")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be341b12-4ee1-4a3f-95b4-1ac46f4d81bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C98732"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d91247a8-fce4-4015-9119-9f2613ddd783")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8895bfb6-dace-40bc-a84d-66fe5c4ca7fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f11c3b61-ae6a-4858-9d37-bbf426f44fb0/0ff6488c-dd9e-444f-afe8-242c0dfa59ef")
-		(sheetname "/Power Connector/")
-		(sheetfile "Power_Connector.kicad_sch")
-		(attr through_hole exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 11.46 -16.46)
-			(end 11.46 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0f98f7cc-d021-4b6b-a9c0-de4ccf737d39")
-		)
-		(fp_line
-			(start 2.31 1.96)
-			(end 6.05 1.96)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be4ae4ac-b4f5-47a0-bd2e-ad771efe864d")
-		)
-		(fp_line
-			(start -4.26 -16.46)
-			(end 11.46 -16.46)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "654a256b-77b9-4d9a-8d7f-38ee0547072c")
-		)
-		(fp_line
-			(start -4.26 -16.46)
-			(end -4.26 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f86bb658-aeca-4a47-913d-d878c66f5489")
-		)
-		(fp_arc
-			(start 11.46 -2.15)
-			(mid 10.653852 0.294722)
-			(end 8.551648 1.780413)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "90f25484-cff2-4d49-a7a7-1fba43b581c7")
-		)
-		(fp_arc
-			(start -2.266806 1.372958)
-			(mid -3.727162 -0.126139)
-			(end -4.26 -2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ea1595d-48ad-4427-a469-d6c52526d522")
-		)
-		(fp_line
-			(start 11.85 2.55)
-			(end -4.65 2.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "33a811e8-149b-4f69-a32a-034fb4c52907")
-		)
-		(fp_line
-			(start 11.85 -16.85)
-			(end 11.85 2.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a2e62206-f899-472b-8fa0-a55aff5ec377")
-		)
-		(fp_line
-			(start -4.65 -16.85)
-			(end 11.85 -16.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6e320678-a1d3-4436-b946-cc689c39d42c")
-		)
-		(fp_line
-			(start -4.65 -16.85)
-			(end -4.65 2.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9d82d473-2b93-4492-838f-eadff07a6287")
-		)
-		(fp_line
-			(start 11.35 -16.35)
-			(end 11.35 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e768c052-3907-448e-947c-995c9550695c")
-		)
-		(fp_line
-			(start -0.15 1.85)
-			(end 7.35 1.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ba128961-58ea-4ebd-803b-62550b2c0f0c")
-		)
-		(fp_line
-			(start -4.15 -16.35)
-			(end 11.35 -16.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "82e98ec9-f14d-4686-903e-bf572f8d25d0")
-		)
-		(fp_line
-			(start -4.15 -16.35)
-			(end -4.15 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2b3753fe-03b6-416c-a608-ecf08ecb1182")
-		)
-		(fp_arc
-			(start 11.35 -2.15)
-			(mid 10.178427 0.678427)
-			(end 7.35 1.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7faff555-2567-47e6-b2f5-90f3b251d759")
-		)
-		(fp_arc
-			(start -0.15 1.85)
-			(mid -2.978427 0.678427)
-			(end -4.15 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2c364709-23c1-4f05-90b8-21002d4977fe")
-		)
-		(fp_text user "+"
-			(at 9.5 2.5 0)
-			(layer "F.SilkS")
-			(uuid "c0818337-a3e2-416e-adce-ff3d838fcd29")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "-"
-			(at -2.8 2.5 0)
-			(layer "F.SilkS")
-			(uuid "c163579c-a403-4a9f-bfd1-ccd31789f561")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.6 -3.6 0)
-			(layer "F.Fab")
-			(uuid "a5becb2a-6ba9-4995-b1d0-ec68f8ed240b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" thru_hole rect
-			(at -3.15 -6 180)
-			(size 0.9 2)
-			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "3b695f64-9190-4830-8f03-014653db782e")
-		)
-		(pad "" thru_hole rect
-			(at 10.35 -6 180)
-			(size 0.9 2)
-			(drill oval 0.6 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "d14b323c-319b-4113-affa-1774359d4c60")
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0 180)
-			(size 4.1 4.1)
-			(drill 2.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "fb419518-8e28-4475-a4e9-b422fc5cb357")
-		)
-		(pad "2" thru_hole circle
-			(at 7.2 0 180)
-			(size 4.1 4.1)
-			(drill 2.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/Power Connector/VIN_BRD")
-			(pinfunction "Pin_2_2")
-			(pintype "passive")
-			(uuid "cf68e902-7722-450b-95b4-cc32f58b2d7d")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/XT60_STEP_Male.3dshapes/CONN-TH_XT60PW-M.step"
-			(offset
-				(xyz 3.67 7 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
-	)
 	(footprint "PCM_JLCPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "51871f6c-b6e5-4cd6-8363-a4c4e8594ffd")
@@ -4304,19 +3563,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" "0402WGF1002TCE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e81fb6e7-0c81-4d1b-9625-613205b15fb9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4559,6 +3805,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/962c9555-1dfd-4076-a31d-1cb703723688")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4715,6 +3967,12 @@
 		(path "/7270eaa3-20e4-4c0f-ace2-dafd79c81abc")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -4834,18 +4092,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b27f26ce-d23f-4b03-9120-43ba5399dc43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4863,6 +4109,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/2bdc2f2f-2e7c-4725-b021-3d1ad96d19cc")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5043,475 +4295,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "PCM_JLCPCB:D_SMA"
-		(layer "F.Cu")
-		(uuid "59668a36-3213-4393-a147-569282973e95")
-		(at 91.165 94.725 180)
-		(descr "Diode SMA (DO-214AC)")
-		(tags "Diode SMA (DO-214AC)")
-		(property "Reference" "D1"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "206d7df8-f520-40fb-b7b8-690049bec208")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "M7"
-			(at 0 2.6 0)
-			(layer "F.Fab")
-			(uuid "fd48efe4-cb80-40f9-a724-8998c8deaf8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101107_MDD-Microdiode-Semiconductor-M7_C95872.pdf"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "536b43ff-c211-4df4-ad1b-f64bebd47e3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "1A Independent Type 1kV 1.1V@1A SMA(DO-214AC) Diodes - General Purpose ROHS"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2573f430-1de9-4ad5-8336-b8ac686244b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C95872"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3003ad0e-d345-4e81-9d11-1b8ba6a97d62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Stock" "3256855"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ec44631-3a1d-45c2-ad04-1d0f22141d65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "0.011USD"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b044af90-4325-4a5e-9748-811074335bd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bca2232-558f-490c-b236-649f43f86336")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb540543-188c-484d-875c-48c17eafadd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bef229a7-a354-4b1c-9bd2-33a493987de0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e7c3af1-53ff-4f16-bceb-fbd2e6da9c63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Category" "Diodes,Diodes - General Purpose"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46b7372d-a999-48ae-9cc5-3eec02901c55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "MDD（Microdiode Electronics）"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9dc3691-6256-40ba-9901-9718e57063dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part" "M7"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39cd2e6d-1d25-43ce-b92b-1508650a1e57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Rectified Current" "1A"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f93e539-4e61-4020-a19a-3626f7ad2f75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Forward Voltage (Vf@If)" "1.1V@1A"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f403b4f8-25d0-4f18-bcd7-e645052d1d98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reverse Voltage (Vr)" "1kV"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3aefcea3-9c5b-4602-a9cb-98da17eeea81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Diode Configuration" "Independent Type"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0928ab8c-3a53-40a1-91eb-fb83375bacea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Reverse Leakage Current" "5uA@1kV"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "402ab9d6-245a-444a-bc49-e19d8fb4b195")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "D_*")
-		(path "/f11c3b61-ae6a-4858-9d37-bbf426f44fb0/76e42219-d5c6-4451-bec5-b584de3c5e06")
-		(sheetname "/Power Connector/")
-		(sheetfile "Power_Connector.kicad_sch")
-		(solder_mask_margin 0.038)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.51 1.65)
-			(end 2 1.65)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "78682788-bd38-4295-aca2-0694a8e05637")
-		)
-		(fp_line
-			(start -3.51 -1.65)
-			(end 2 -1.65)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f9ace03-2c28-4639-a5b8-f79da8dc46eb")
-		)
-		(fp_line
-			(start -3.51 -1.65)
-			(end -3.51 1.65)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "67b5f693-201b-4087-b147-8105079903c9")
-		)
-		(fp_line
-			(start 3.5 1.75)
-			(end -3.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6a5353dc-e1f4-420a-933e-f12882101fe5")
-		)
-		(fp_line
-			(start 3.5 -1.75)
-			(end 3.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "78afd130-9554-435a-b448-2b2f679e8b55")
-		)
-		(fp_line
-			(start -3.5 1.75)
-			(end -3.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ae16dfd4-0ead-462d-934f-cbeede092bbb")
-		)
-		(fp_line
-			(start -3.5 -1.75)
-			(end 3.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cc4d5f34-c8cc-4d1d-851b-930ecfeeec71")
-		)
-		(fp_line
-			(start 2.3 1.5)
-			(end -2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8b8667a5-d5ee-40f7-9d55-184dc2581fe7")
-		)
-		(fp_line
-			(start 2.3 -1.5)
-			(end 2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fce152e4-3965-4b4f-832a-ce684299f414")
-		)
-		(fp_line
-			(start 2.3 -1.5)
-			(end -2.3 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0a54cd9a-d063-46b0-9185-603b34b9334a")
-		)
-		(fp_line
-			(start 0.5 0.75)
-			(end 0.5 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c61ba8b2-1bb6-4dd0-8810-e0a09619bc0a")
-		)
-		(fp_line
-			(start 0.5 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3f2fbafc-6665-4f8a-8b5a-45d202883f32")
-		)
-		(fp_line
-			(start -0.65 0)
-			(end 0.5 0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e9afee69-2527-4091-bf67-7904d9b7361b")
-		)
-		(fp_line
-			(start -0.65 0)
-			(end 0.5 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c4b6e2f9-a78e-4f59-9dc5-7a6bff747453")
-		)
-		(fp_line
-			(start -0.65 0)
-			(end -1.55 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7cfcec6e-755e-4f34-940e-37dfc47f138a")
-		)
-		(fp_line
-			(start -0.65 -0.8)
-			(end -0.65 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e5ba911c-1266-4b08-9aed-bba3f5c17a6c")
-		)
-		(fp_line
-			(start -2.3 1.5)
-			(end -2.3 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f5b86aa6-ed88-4d03-a1b5-42fcbe4e8d7e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "7c3002b3-6966-41ef-a805-02b8b84fdca8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2 0 180)
-			(size 2.5 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1388888889)
-			(net "VIN_CHAINBUS")
-			(pintype "passive")
-			(uuid "04abe656-5a00-40d6-a665-a2e478c422cb")
-		)
-		(pad "2" smd roundrect
-			(at 2 0 180)
-			(size 2.5 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1388888889)
-			(net "/Power Connector/VIN_BRD")
-			(pintype "passive")
-			(uuid "95a9da29-71d9-4b5a-b83c-2e1601edee3b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SMA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5777,6 +4560,12 @@
 		(path "/92ad2d58-af73-4f88-a23b-3e867183e5a2")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5974,6 +4763,12 @@
 		(path "/048316d6-a057-4ba2-83ef-068bb9533692")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -6291,6 +5086,12 @@
 		(path "/56050d79-5900-47d6-893d-3da0e8bf5810/1c2a0270-ec6a-4d03-b1bd-532daf9cee9f")
 		(sheetname "/ID EEPROM/")
 		(sheetfile "ID_EEPROM.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "7" "6" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6700,6 +5501,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/9a428b4b-1487-4f66-ae53-d24b78e471df")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6919,22 +5726,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "464bba6a-c41d-4965-8760-466cc31a756f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/e369863d-bba3-4aff-884c-34b02c21a0f8")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7051,6 +5852,12 @@
 		(path "/9671361b-3b51-4845-94d6-a4d8cdb90b14")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -7371,6 +6178,12 @@
 		(path "/56050d79-5900-47d6-893d-3da0e8bf5810/6b5568b9-c7a7-4757-bbf6-15952c61a931")
 		(sheetname "/ID EEPROM/")
 		(sheetfile "ID_EEPROM.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -7549,19 +6362,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" "0402WGF3300TCE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14a4f113-d7e8-4ba1-b586-01356c03f6e9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7804,6 +6604,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/947d9709-859f-4d86-ac8c-c9f33ac08c35")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7942,22 +6748,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b84ace2e-9398-4301-9c85-edf3725b9b80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d844f707-7c17-4a2a-89f9-f3ab5a70692a")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8056,22 +6856,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ba2bee6a-fce2-4129-9e59-82b1a740819d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/3c0d1340-32b8-40ed-a067-5f7a90eb3ce7")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8370,6 +7164,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/f76918ee-80d2-4409-9ae4-fe9937a0fbd4")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -8549,22 +7349,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6653c602-b850-46bb-ad99-264a715e3c25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/bacc9794-7325-4356-adf3-87765f583942")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8662,19 +7456,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" "0402WGF1002TCE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40c5068b-9ac3-4e97-97dc-155b8b4342ea")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8917,6 +7698,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/13097454-219a-410e-a2d2-66e599765c8f")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9054,19 +7841,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" "0402WGF1002TCE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d17551f5-e51c-438b-a6af-b94e652a3e0b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9296,6 +8070,12 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/b6f3cf93-9b33-45c5-8f02-4ad1445dd162")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.038)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9434,22 +8214,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "109c9385-81e8-4553-abab-abed5bbe396e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/897b36dc-5e00-4781-9695-f9572ec770d3")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9553,19 +8327,6 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "b84fc495-a334-4836-bfb4-e4a1253b9aff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -9584,6 +8345,15 @@
 		(path "/fdb595ff-e94b-4e80-8fe7-e7d367588ab2/77c72888-0b70-4ff6-9cf0-f0d23565b240")
 		(sheetname "/Interboard_connector/")
 		(sheetfile "Interboard_connector.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27"
+					"29" "31" "2" "4" "6" "8" "10" "12" "14" "16" "18" "20" "22" "24" "26"
+					"28" "30" "32"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15543,30 +14313,6 @@
 		(uuid "dc5311e1-ccd8-453f-8cf3-68e88076210e")
 	)
 	(segment
-		(start 90.35 110.25)
-		(end 90.35 126.456505)
-		(width 1)
-		(layer "F.Cu")
-		(net "/Power Connector/VIN_BRD")
-		(uuid "0dff51c5-1806-4e3f-b020-6ad802987b1e")
-	)
-	(segment
-		(start 89.07 94.4)
-		(end 89.07 108.97)
-		(width 1)
-		(layer "F.Cu")
-		(net "/Power Connector/VIN_BRD")
-		(uuid "31336f18-c7c3-454c-8647-74d1ead5dc86")
-	)
-	(segment
-		(start 89.07 108.97)
-		(end 90.35 110.25)
-		(width 1)
-		(layer "F.Cu")
-		(net "/Power Connector/VIN_BRD")
-		(uuid "3856da7c-2b0d-4171-9cf4-a42405e2ac6d")
-	)
-	(segment
 		(start 148.05 95.75)
 		(end 149.45 94.35)
 		(width 0.3)
@@ -15923,30 +14669,6 @@
 		(layer "F.Cu")
 		(net "VIN_CHAINBUS")
 		(uuid "328bce18-a80e-4ee2-b9b8-fa95bbbe91da")
-	)
-	(segment
-		(start 98.39 89.5)
-		(end 120.45 89.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "VIN_CHAINBUS")
-		(uuid "75d03dcf-1b3d-44c1-9105-b59fd112743b")
-	)
-	(segment
-		(start 120.45 89.5)
-		(end 122.9 91.95)
-		(width 1)
-		(layer "F.Cu")
-		(net "VIN_CHAINBUS")
-		(uuid "937c6fb7-e00c-48bb-9415-2e26c90f3ffe")
-	)
-	(segment
-		(start 93.165 94.725)
-		(end 98.39 89.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "VIN_CHAINBUS")
-		(uuid "bf55ca3f-f286-4d73-a0e2-8282e5190b68")
 	)
 	(via
 		(at 120.35 94.2)
@@ -16343,146 +15065,6 @@
 		(layer "F.Cu")
 		(net "Net-(D3-Pad1)")
 		(uuid "f7478894-062e-46ec-9af1-db68597ac509")
-	)
-	(zone
-		(net "/Power Connector/VIN_BRD")
-		(layer "F.Cu")
-		(uuid "c4611e2d-8ede-4de0-b52f-5c25f372a714")
-		(name "XT-60 VIN")
-		(hatch edge 0.5)
-		(priority 1)
-		(connect_pads
-			(clearance 0.2)
-		)
-		(min_thickness 0.25)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 85.4 123.906505) (xy 85.4 138.513827) (xy 118.7 138.513827) (xy 118.7 124.806505) (xy 110.4 124.806505)
-				(xy 110.4 130.513827) (xy 93.898042 130.508694) (xy 93.900096 123.906505)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 89.291738 123.92619) (xy 89.337493 123.978994) (xy 89.347437 124.048152) (xy 89.318412 124.111708)
-				(xy 89.278501 124.142225) (xy 89.114575 124.221167) (xy 88.87207 124.373543) (xy 88.732163 124.485114)
-				(xy 89.588282 125.341233) (xy 89.470534 125.426783) (xy 89.320278 125.577039) (xy 89.234728 125.694787)
-				(xy 88.378609 124.838668) (xy 88.267038 124.978575) (xy 88.114662 125.22108) (xy 87.990396 125.479121)
-				(xy 87.895803 125.74945) (xy 87.895799 125.749462) (xy 87.832068 126.028687) (xy 87.832066 126.028703)
-				(xy 87.8 126.313295) (xy 87.8 126.599714) (xy 87.832066 126.884306) (xy 87.832068 126.884322) (xy 87.895799 127.163547)
-				(xy 87.895803 127.163559) (xy 87.990396 127.433888) (xy 88.114662 127.691929) (xy 88.267042 127.93444)
-				(xy 88.378608 128.074341) (xy 89.234728 127.218221) (xy 89.320278 127.335971) (xy 89.470534 127.486227)
-				(xy 89.588282 127.571775) (xy 88.732162 128.427895) (xy 88.872064 128.539462) (xy 89.114575 128.691842)
-				(xy 89.372616 128.816108) (xy 89.642945 128.910701) (xy 89.642957 128.910705) (xy 89.922182 128.974436)
-				(xy 89.922198 128.974438) (xy 90.20679 129.006504) (xy 90.206792 129.006505) (xy 90.493208 129.006505)
-				(xy 90.493209 129.006504) (xy 90.777801 128.974438) (xy 90.777817 128.974436) (xy 91.057042 128.910705)
-				(xy 91.057054 128.910701) (xy 91.327383 128.816108) (xy 91.585424 128.691842) (xy 91.827935 128.539463)
-				(xy 91.967836 128.427894) (xy 91.111717 127.571776) (xy 91.229466 127.486227) (xy 91.379722 127.335971)
-				(xy 91.46527 127.218222) (xy 92.321389 128.074341) (xy 92.432958 127.93444) (xy 92.585337 127.691929)
-				(xy 92.709603 127.433888) (xy 92.804196 127.163559) (xy 92.8042 127.163547) (xy 92.867931 126.884322)
-				(xy 92.867933 126.884306) (xy 92.899999 126.599714) (xy 92.9 126.599712) (xy 92.9 126.313297) (xy 92.899999 126.313295)
-				(xy 92.867933 126.028703) (xy 92.867931 126.028687) (xy 92.8042 125.749462) (xy 92.804196 125.74945)
-				(xy 92.709603 125.479121) (xy 92.585337 125.22108) (xy 92.432957 124.978569) (xy 92.32139 124.838667)
-				(xy 91.46527 125.694786) (xy 91.379722 125.577039) (xy 91.229466 125.426783) (xy 91.111716 125.341233)
-				(xy 91.967836 124.485113) (xy 91.827935 124.373547) (xy 91.585424 124.221167) (xy 91.421499 124.142225)
-				(xy 91.36964 124.095403) (xy 91.351327 124.027975) (xy 91.372375 123.961352) (xy 91.426101 123.916683)
-				(xy 91.475301 123.906505) (xy 93.776057 123.906505) (xy 93.843096 123.92619) (xy 93.888851 123.978994)
-				(xy 93.900057 124.030544) (xy 93.898041 130.508693) (xy 93.898042 130.508693) (xy 93.898042 130.508694)
-				(xy 99.478802 130.510429) (xy 99.545832 130.530134) (xy 99.59157 130.582953) (xy 99.601492 130.652114)
-				(xy 99.572448 130.715661) (xy 99.557121 130.730531) (xy 99.538891 130.745395) (xy 99.410304 130.903095)
-				(xy 99.316089 131.083459) (xy 99.260114 131.279088) (xy 99.260113 131.279091) (xy 99.2495 131.398471)
-				(xy 99.2495 133.514533) (xy 99.249501 133.514539) (xy 99.260113 133.63392) (xy 99.316089 133.82955)
-				(xy 99.31609 133.829553) (xy 99.316091 133.829554) (xy 99.410302 134.009912) (xy 99.410304 134.009914)
-				(xy 99.53889 134.167614) (xy 99.632803 134.244189) (xy 99.696593 134.296203) (xy 99.876951 134.390414)
-				(xy 100.072582 134.446391) (xy 100.191963 134.457005) (xy 101.208036 134.457004) (xy 101.327418 134.446391)
-				(xy 101.523049 134.390414) (xy 101.703407 134.296203) (xy 101.861109 134.167614) (xy 101.989698 134.009912)
-				(xy 102.065593 133.864617) (xy 102.114077 133.814313) (xy 102.182065 133.798205) (xy 102.247968 133.821411)
-				(xy 102.290863 133.876564) (xy 102.2995 133.922031) (xy 102.2995 134.514533) (xy 102.299501 134.514539)
-				(xy 102.310113 134.63392) (xy 102.366089 134.82955) (xy 102.36609 134.829553) (xy 102.366091 134.829554)
-				(xy 102.460302 135.009912) (xy 102.460304 135.009914) (xy 102.58889 135.167614) (xy 102.682803 135.244189)
-				(xy 102.746593 135.296203) (xy 102.926951 135.390414) (xy 103.122582 135.446391) (xy 103.241963 135.457005)
-				(xy 104.258036 135.457004) (xy 104.377418 135.446391) (xy 104.573049 135.390414) (xy 104.753407 135.296203)
-				(xy 104.911109 135.167614) (xy 105.039698 135.009912) (xy 105.133909 134.829554) (xy 105.189886 134.633923)
-				(xy 105.2005 134.514542) (xy 105.200499 132.398469) (xy 105.189886 132.279087) (xy 105.13827 132.098697)
-				(xy 105.13391 132.083459) (xy 105.133909 132.083458) (xy 105.133909 132.083456) (xy 105.039698 131.903098)
-				(xy 104.970666 131.818437) (xy 104.911109 131.745395) (xy 104.753409 131.616809) (xy 104.75341 131.616809)
-				(xy 104.753407 131.616807) (xy 104.573049 131.522596) (xy 104.573048 131.522595) (xy 104.573045 131.522594)
-				(xy 104.455829 131.489055) (xy 104.377418 131.466619) (xy 104.377415 131.466618) (xy 104.377413 131.466618)
-				(xy 104.311102 131.460722) (xy 104.258037 131.456005) (xy 104.258032 131.456005) (xy 103.241971 131.456005)
-				(xy 103.241965 131.456005) (xy 103.241964 131.456006) (xy 103.230316 131.457041) (xy 103.122584 131.466618)
-				(xy 102.926954 131.522594) (xy 102.836772 131.569701) (xy 102.746593 131.616807) (xy 102.746591 131.616808)
-				(xy 102.74659 131.616809) (xy 102.58889 131.745395) (xy 102.460302 131.903098) (xy 102.4603 131.9031)
-				(xy 102.384407 132.04839) (xy 102.335921 132.098697) (xy 102.267933 132.114804) (xy 102.20203 132.091597)
-				(xy 102.159135 132.036444) (xy 102.150499 131.990978) (xy 102.150499 131.398476) (xy 102.150499 131.398469)
-				(xy 102.139886 131.279087) (xy 102.083909 131.083456) (xy 101.989698 130.903098) (xy 101.937684 130.839308)
-				(xy 101.861109 130.745395) (xy 101.843811 130.731291) (xy 101.804294 130.67367) (xy 101.802202 130.603831)
-				(xy 101.8382 130.543949) (xy 101.900859 130.513034) (xy 101.9222 130.511189) (xy 110.4 130.513827)
-				(xy 110.4 124.930505) (xy 110.419685 124.863466) (xy 110.472489 124.817711) (xy 110.524 124.806505)
-				(xy 113.22271 124.806505) (xy 113.289749 124.82619) (xy 113.335504 124.878994) (xy 113.345448 124.948152)
-				(xy 113.316423 125.011708) (xy 113.263665 125.047546) (xy 113.122616 125.096901) (xy 112.864575 125.221167)
-				(xy 112.62207 125.373543) (xy 112.482163 125.485114) (xy 113.338282 126.341233) (xy 113.220534 126.426783)
-				(xy 113.070278 126.577039) (xy 112.984728 126.694787) (xy 112.128609 125.838668) (xy 112.017038 125.978575)
-				(xy 111.864662 126.22108) (xy 111.740396 126.479121) (xy 111.645803 126.74945) (xy 111.645799 126.749462)
-				(xy 111.582068 127.028687) (xy 111.582066 127.028703) (xy 111.55 127.313295) (xy 111.55 127.599714)
-				(xy 111.582066 127.884306) (xy 111.582068 127.884322) (xy 111.645799 128.163547) (xy 111.645803 128.163559)
-				(xy 111.740396 128.433888) (xy 111.864662 128.691929) (xy 112.017042 128.93444) (xy 112.128608 129.074341)
-				(xy 112.984728 128.218221) (xy 113.070278 128.335971) (xy 113.220534 128.486227) (xy 113.338282 128.571775)
-				(xy 112.482162 129.427895) (xy 112.622064 129.539462) (xy 112.864575 129.691842) (xy 113.122616 129.816108)
-				(xy 113.392945 129.910701) (xy 113.392957 129.910705) (xy 113.672182 129.974436) (xy 113.672198 129.974438)
-				(xy 113.95679 130.006504) (xy 113.956792 130.006505) (xy 114.243208 130.006505) (xy 114.243209 130.006504)
-				(xy 114.527801 129.974438) (xy 114.527817 129.974436) (xy 114.807042 129.910705) (xy 114.807054 129.910701)
-				(xy 115.077383 129.816108) (xy 115.335424 129.691842) (xy 115.577935 129.539463) (xy 115.717836 129.427894)
-				(xy 114.861717 128.571776) (xy 114.979466 128.486227) (xy 115.129722 128.335971) (xy 115.21527 128.218222)
-				(xy 116.071389 129.074341) (xy 116.182958 128.93444) (xy 116.335337 128.691929) (xy 116.459603 128.433888)
-				(xy 116.554196 128.163559) (xy 116.5542 128.163547) (xy 116.617931 127.884322) (xy 116.617933 127.884306)
-				(xy 116.649999 127.599714) (xy 116.65 127.599712) (xy 116.65 127.313297) (xy 116.649999 127.313295)
-				(xy 116.617933 127.028703) (xy 116.617931 127.028687) (xy 116.5542 126.749462) (xy 116.554196 126.74945)
-				(xy 116.459603 126.479121) (xy 116.335337 126.22108) (xy 116.182957 125.978569) (xy 116.07139 125.838667)
-				(xy 115.21527 126.694786) (xy 115.129722 126.577039) (xy 114.979466 126.426783) (xy 114.861716 126.341233)
-				(xy 115.717836 125.485113) (xy 115.577935 125.373547) (xy 115.335424 125.221167) (xy 115.077383 125.096901)
-				(xy 114.936335 125.047546) (xy 114.879559 125.006825) (xy 114.853812 124.941872) (xy 114.867268 124.87331)
-				(xy 114.915656 124.822908) (xy 114.97729 124.806505) (xy 118.576 124.806505) (xy 118.643039 124.82619)
-				(xy 118.688794 124.878994) (xy 118.7 124.930505) (xy 118.7 131.751398) (xy 118.680315 131.818437)
-				(xy 118.627511 131.864192) (xy 118.558353 131.874136) (xy 118.494797 131.845111) (xy 118.479898 131.829759)
-				(xy 118.411109 131.745395) (xy 118.253409 131.616809) (xy 118.25341 131.616809) (xy 118.253407 131.616807)
-				(xy 118.073049 131.522596) (xy 118.073048 131.522595) (xy 118.073045 131.522594) (xy 117.955829 131.489055)
-				(xy 117.877418 131.466619) (xy 117.877415 131.466618) (xy 117.877413 131.466618) (xy 117.811102 131.460722)
-				(xy 117.758037 131.456005) (xy 117.758032 131.456005) (xy 116.741971 131.456005) (xy 116.741965 131.456005)
-				(xy 116.741964 131.456006) (xy 116.730316 131.457041) (xy 116.622584 131.466618) (xy 116.426954 131.522594)
-				(xy 116.336772 131.569701) (xy 116.246593 131.616807) (xy 116.246591 131.616808) (xy 116.24659 131.616809)
-				(xy 116.08889 131.745395) (xy 115.960304 131.903095) (xy 115.866089 132.083459) (xy 115.810114 132.279088)
-				(xy 115.810113 132.279091) (xy 115.7995 132.398471) (xy 115.7995 134.514533) (xy 115.799501 134.514539)
-				(xy 115.810113 134.63392) (xy 115.866089 134.82955) (xy 115.86609 134.829553) (xy 115.866091 134.829554)
-				(xy 115.960302 135.009912) (xy 115.960304 135.009914) (xy 116.08889 135.167614) (xy 116.182803 135.244189)
-				(xy 116.246593 135.296203) (xy 116.426951 135.390414) (xy 116.622582 135.446391) (xy 116.741963 135.457005)
-				(xy 117.758036 135.457004) (xy 117.877418 135.446391) (xy 118.073049 135.390414) (xy 118.253407 135.296203)
-				(xy 118.411109 135.167614) (xy 118.479898 135.083251) (xy 118.537518 135.043733) (xy 118.607357 135.041641)
-				(xy 118.667239 135.077639) (xy 118.698154 135.140297) (xy 118.7 135.161611) (xy 118.7 137.8755)
-				(xy 118.680315 137.942539) (xy 118.627511 137.988294) (xy 118.576 137.9995) (xy 85.524 137.9995)
-				(xy 85.456961 137.979815) (xy 85.411206 137.927011) (xy 85.4 137.8755) (xy 85.4 131.398471) (xy 85.7495 131.398471)
-				(xy 85.7495 133.514533) (xy 85.749501 133.514539) (xy 85.760113 133.63392) (xy 85.816089 133.82955)
-				(xy 85.81609 133.829553) (xy 85.816091 133.829554) (xy 85.910302 134.009912) (xy 85.910304 134.009914)
-				(xy 86.03889 134.167614) (xy 86.132803 134.244189) (xy 86.196593 134.296203) (xy 86.376951 134.390414)
-				(xy 86.572582 134.446391) (xy 86.691963 134.457005) (xy 87.708036 134.457004) (xy 87.827418 134.446391)
-				(xy 88.023049 134.390414) (xy 88.203407 134.296203) (xy 88.361109 134.167614) (xy 88.489698 134.009912)
-				(xy 88.583909 133.829554) (xy 88.639886 133.633923) (xy 88.6505 133.514542) (xy 88.650499 131.398469)
-				(xy 88.639886 131.279087) (xy 88.583909 131.083456) (xy 88.489698 130.903098) (xy 88.437684 130.839308)
-				(xy 88.361109 130.745395) (xy 88.203409 130.616809) (xy 88.20341 130.616809) (xy 88.203407 130.616807)
-				(xy 88.023049 130.522596) (xy 88.023048 130.522595) (xy 88.023045 130.522594) (xy 87.905829 130.489055)
-				(xy 87.827418 130.466619) (xy 87.827415 130.466618) (xy 87.827413 130.466618) (xy 87.761102 130.460722)
-				(xy 87.708037 130.456005) (xy 87.708032 130.456005) (xy 86.691971 130.456005) (xy 86.691965 130.456005)
-				(xy 86.691964 130.456006) (xy 86.680316 130.457041) (xy 86.572584 130.466618) (xy 86.376954 130.522594)
-				(xy 86.286772 130.569701) (xy 86.196593 130.616807) (xy 86.196591 130.616808) (xy 86.19659 130.616809)
-				(xy 86.03889 130.745395) (xy 85.910304 130.903095) (xy 85.816089 131.083459) (xy 85.760114 131.279088)
-				(xy 85.760113 131.279091) (xy 85.7495 131.398471) (xy 85.4 131.398471) (xy 85.4 124.030505) (xy 85.419685 123.963466)
-				(xy 85.472489 123.917711) (xy 85.524 123.906505) (xy 89.224699 123.906505)
-			)
-		)
 	)
 	(zone
 		(net "GND")

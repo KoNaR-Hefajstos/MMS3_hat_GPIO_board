@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MMS3_hat_templates.kicad_pro",
+    "filename": "MMS3_hat_GPIO_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,29 +597,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Power Connector/VIN_BRD": [
-        "50V"
-      ],
-      "BRD_VIN": [
-        "50V "
-      ],
-      "Net-(D4-K)": [
-        "50V "
-      ],
-      "Net-(J8-Pin_1)": [
-        "50V "
-      ],
-      "U_reg": [
-        "50V "
-      ],
-      "VIN_CHAINBUS": [
-        "50V"
-      ],
-      "Vin": [
-        "50V "
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "USB_90_DIFF",
@@ -1062,6 +1040,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -1076,18 +1062,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MMS3_hat_templates.kicad_sch",
-        "name": "MMS3_hat_templates",
+        "filename": "MMS3_hat_GPIO_board.kicad_sch",
+        "name": "MMS3_hat_GPIO_board",
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "D1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "6596548a-44e0-46d8-8624-fd71cf4a3e17",
-      "MMS3_hat_templates"
+      "MMS3_hat_GPIO_board"
     ],
     [
       "fdb595ff-e94b-4e80-8fe7-e7d367588ab2",
@@ -1098,12 +1084,64 @@
       "Bus_switch"
     ],
     [
-      "f11c3b61-ae6a-4858-9d37-bbf426f44fb0",
-      "Power Connector"
+      "c2f39bdb-9c1b-4921-8d04-73bc70736b75",
+      "Optocoupler channel3"
     ],
     [
       "56050d79-5900-47d6-893d-3da0e8bf5810",
       "ID EEPROM"
+    ],
+    [
+      "7811fe26-b12c-49d3-900a-da667bb92701",
+      "Optocoupler channel4"
+    ],
+    [
+      "4a0af50f-5371-4567-aa77-17756cd48944",
+      "Optocoupler channel1"
+    ],
+    [
+      "5e8bd31f-a6e8-4091-8e69-bf3415d17350",
+      "VCC_selector1"
+    ],
+    [
+      "021008e3-ea44-47ce-b5df-83c4f0bb9f38",
+      "Optocoupler channel2"
+    ],
+    [
+      "fbb07586-35a1-4df0-9ad9-9e4df18e544d",
+      "VCC_selector2"
+    ],
+    [
+      "e312dd9a-5e16-4e07-96e3-3b06436d4877",
+      "VCC_selector3"
+    ],
+    [
+      "5702226b-1771-4bd1-a56e-2aa66583dc57",
+      "VCC_selector4"
+    ],
+    [
+      "3c7ed88f-e003-4836-b529-583d127cb159",
+      "Optocoupler channel5"
+    ],
+    [
+      "2f395d76-f173-47e1-83ee-741eb94a9e84",
+      "Optocoupler channel6"
+    ],
+    [
+      "eacc5b0a-9553-494b-8282-33d0e1fb4232",
+      "VCC_selector5"
+    ],
+    [
+      "a4d534dd-15df-4409-9c7a-4d6d8e2352ad",
+      "VCC_selector6"
+    ],
+    [
+      "ed54ced9-663b-4ba7-a87f-f8e4a14c3986",
+      "GPIO Expander"
+    ],
+    [
+      "4023225b-b076-4b5a-a7ad-641d6e2bd243",
+      "CH32V003"
     ]
   ],
   "text_variables": {

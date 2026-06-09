@@ -5,10 +5,11 @@
 	(uuid "6219f996-2028-4799-8c3f-69cf5071ab9b")
 	(paper "A4")
 	(title_block
-		(title "MMS3 Hat template small (Change Me)")
-		(date "2026-02-25")
+		(title "MMS3_hat_GPIO_board")
+		(date "2026-02-12")
 		(rev "A")
-		(comment 1 "Made by Wojciech Szafrański")
+		(company "MiniModucard System")
+		(comment 1 "Wojciech Szafrański")
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
@@ -4202,7 +4203,7 @@
 			(uuid "0528ad7e-5bf1-4517-a483-e865dbab1036")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R7")
 					(unit 1)
@@ -4482,7 +4483,7 @@
 			(uuid "47081831-6693-41cd-950a-15dd918c43fd")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R5")
 					(unit 1)
@@ -4762,7 +4763,7 @@
 			(uuid "773858ad-c343-4b11-9950-fc92416236bd")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R2")
 					(unit 1)
@@ -5041,7 +5042,7 @@
 			(uuid "6305596c-804b-4001-a1a8-3129bd4953d4")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R10")
 					(unit 1)
@@ -5321,7 +5322,7 @@
 			(uuid "ca729de0-5bb6-4b0d-9073-b48b3296158a")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R9")
 					(unit 1)
@@ -5398,7 +5399,7 @@
 			(uuid "fd93e87f-ea1c-4242-b72b-d3964adc1ab7")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR038")
 					(unit 1)
@@ -5476,7 +5477,7 @@
 			(uuid "b77ba388-18a7-41aa-8c9e-f7660c37eb0a")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR047")
 					(unit 1)
@@ -5554,7 +5555,7 @@
 			(uuid "8fc4f25a-6741-4919-8e08-041e9cbb57db")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR051")
 					(unit 1)
@@ -5633,7 +5634,7 @@
 			(uuid "41e44f76-d26c-4ea8-a79a-48d47fc330c0")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR036")
 					(unit 1)
@@ -5730,7 +5731,7 @@
 			(uuid "df7eea39-17dc-4260-8760-5ee0b654c327")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "J3")
 					(unit 1)
@@ -5808,7 +5809,7 @@
 			(uuid "c6832082-b09c-45fd-abf7-0bcffa7d4216")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR031")
 					(unit 1)
@@ -5886,7 +5887,7 @@
 			(uuid "ce6b3fb9-a96a-4360-af0b-7ee331300acc")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR053")
 					(unit 1)
@@ -5964,7 +5965,7 @@
 			(uuid "ef39208d-570e-4eb8-bcf3-169688ece664")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR033")
 					(unit 1)
@@ -6042,7 +6043,7 @@
 			(uuid "1af3f679-db41-48b5-9124-278741294e84")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR048")
 					(unit 1)
@@ -6322,7 +6323,7 @@
 			(uuid "f27583a6-1d9d-46da-bec6-864e76d02f58")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R11")
 					(unit 1)
@@ -6401,7 +6402,7 @@
 			(uuid "62102912-b983-4d7c-9d4e-165bcfa742c2")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR035")
 					(unit 1)
@@ -6480,7 +6481,7 @@
 			(uuid "de0aec78-906c-4a18-8917-a25d5a9029de")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR049")
 					(unit 1)
@@ -6558,7 +6559,7 @@
 			(uuid "79d6a461-35a0-4a21-9794-16494e501628")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR032")
 					(unit 1)
@@ -6837,7 +6838,7 @@
 			(uuid "934b09a8-2917-4877-a195-70d681ba14e3")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R1")
 					(unit 1)
@@ -7116,7 +7117,7 @@
 			(uuid "c0819f35-12b8-4a02-808c-4cb31cb09bd8")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R6")
 					(unit 1)
@@ -7308,7 +7309,7 @@
 			(uuid "03211843-45e7-4cb9-b7fc-3671ba02a6b5")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "D3")
 					(unit 1)
@@ -7588,7 +7589,7 @@
 			(uuid "3264376b-6950-4885-8a78-292e556e4afe")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R3")
 					(unit 1)
@@ -7856,7 +7857,7 @@
 			(uuid "d7542d4b-df8c-4b2d-955e-c513ab998ad0")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R4")
 					(unit 1)
@@ -7934,7 +7935,7 @@
 			(uuid "53e39810-5044-43aa-b5ab-63adfd72dae5")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR034")
 					(unit 1)
@@ -8012,7 +8013,7 @@
 			(uuid "c18a20e4-f0e7-4a51-99f3-2a58aeb6e4c7")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR054")
 					(unit 1)
@@ -8292,7 +8293,7 @@
 			(uuid "dc5746be-7c80-475f-8156-b390defd3a1f")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "R8")
 					(unit 1)
@@ -8370,7 +8371,7 @@
 			(uuid "595ed0dd-3e39-4a2d-b505-8b6cda671349")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR037")
 					(unit 1)
@@ -8448,7 +8449,7 @@
 			(uuid "88e05e5c-e1ed-454c-848b-fda7df1089ed")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR052")
 					(unit 1)
@@ -8618,7 +8619,7 @@
 			(uuid "7e67a275-9884-4f7f-997d-55bc194dc4dc")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "U1")
 					(unit 1)
@@ -8697,7 +8698,7 @@
 			(uuid "04ef1a96-56c9-4f0e-ae73-ab277612a19e")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR050")
 					(unit 1)
@@ -8776,7 +8777,7 @@
 			(uuid "1defdc8f-6b36-4cc7-a6b8-49ada7174480")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "#PWR046")
 					(unit 1)
@@ -9023,7 +9024,7 @@
 			(uuid "1b4a101a-2e93-4db0-b5a2-f412c6d6404f")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_hat_GPIO_board"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
 					(reference "C1")
 					(unit 1)
