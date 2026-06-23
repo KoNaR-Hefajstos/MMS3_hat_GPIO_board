@@ -9,4 +9,5 @@
 	(lib (name "QRcode") (type "KiCad") (uri "${KIPRJMOD}/lib/kicad-footprints/QRcode.pretty") (options "") (descr ""))
 	(lib (name "SS510C") (type "KiCad") (uri "C:/Users/Muse/Desktop/Pulpit/_Kola_naukowe/KoNarRobotics/MMS3_hat_protocol/lib/SS510C.pretty") (options "") (descr ""))
 	(lib (name "TCA9535PWR") (type "KiCad") (uri "${KIPRJMOD}/lib/TCA9535PWR.pretty") (options "") (descr ""))
+	(lib (name "Funky_Buzzer") (type "KiCad") (uri "${KIPRJMOD}/lib/Funky_Buzzer.pretty") (options "") (descr ""))
 )

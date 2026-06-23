@@ -238,7 +238,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "A"
+      "sch_revision": "V1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1067,7 +1067,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q6-7,Q11-12,Q16-17,Q21-22,Q26-27,Q31-32,J13-14,BZ1,R12-13,R15,R23-24,R26,R34-35,R37,R48-49,R51,R68-69,R71,R79-80,R82,R96,R99-114,#PWR57,#PWR60-61,#PWR74,#PWR76,#PWR88-89,#PWR102-103,#PWR122-123,#PWR133-134,#PWR150-154,#PWR168-188,D1-2,D5-6,D8-9,D11-12,D14-15,D17-18,D20,D22-23,C3,C7-10,U22,U24-25,S2,X2",
     "variants": []
   },
   "sheets": [
@@ -1136,12 +1136,20 @@
       "VCC_selector6"
     ],
     [
-      "ed54ced9-663b-4ba7-a87f-f8e4a14c3986",
+      "2f1cd19a-9f29-4f45-b4fa-fc3bc32e9d3a",
       "GPIO Expander"
     ],
     [
       "4023225b-b076-4b5a-a7ad-641d6e2bd243",
-      "CH32V003"
+      "CH32V003_1"
+    ],
+    [
+      "3591e389-9ec1-4f1d-a9a3-a0a7d6e362d0",
+      "CH32V003_2"
+    ],
+    [
+      "339cfe57-e073-474b-bfe5-4beb9a5b2966",
+      "GPIO Expander1"
     ]
   ],
   "text_variables": {
