@@ -957,7 +957,7 @@
 		)
 		(path "/ce45453a-584b-44f7-9b99-fc79de0fe678")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1245,7 +1245,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c8ce61d0-35b4-429d-8aa1-236fd73ec981")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3378,7 +3378,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8b1db0a-b800-4084-a024-52a0c121e448")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3904,7 +3904,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c2a454e2-0d81-4f27-907c-37c727de06f4")
+			(uuid "6127eedd-8551-471f-aceb-7b81b25ab1f2")
 			(effects
 				(font
 					(size 1 1)
@@ -3917,7 +3917,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b0e1664-ca42-43c2-a61a-3af4764c88bf")
+			(uuid "e3f824e2-0d3d-4942-abaf-3706fece7b51")
 			(effects
 				(font
 					(size 1 1)
@@ -3930,7 +3930,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed5b365a-a112-436c-9fe2-10f310a5fc9f")
+			(uuid "dc8a151d-2db2-4553-afd5-83c120264819")
 			(effects
 				(font
 					(size 1 1)
@@ -3943,7 +3943,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ba736d1-65af-43a0-84ed-56659fb5fb51")
+			(uuid "754b470e-738a-47df-82a5-e19c47e12015")
 			(effects
 				(font
 					(size 1 1)
@@ -3966,7 +3966,7 @@
 		)
 		(path "/7270eaa3-20e4-4c0f-ace2-dafd79c81abc")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4559,7 +4559,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/92ad2d58-af73-4f88-a23b-3e867183e5a2")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4700,7 +4700,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f4771016-25de-42cd-83e4-2b887265bf80")
+			(uuid "4c9b7277-5c00-4818-b5de-8c7791a7ed9b")
 			(effects
 				(font
 					(size 1 1)
@@ -4713,7 +4713,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "799fa5fa-acb4-43af-ae31-3c86cd34caaf")
+			(uuid "4cb854f5-2f5c-416b-8f51-304b09002aee")
 			(effects
 				(font
 					(size 1 1)
@@ -4726,7 +4726,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53424265-8c21-4db6-ab66-b3b1310a49a1")
+			(uuid "cdda1aec-9b01-4585-94ac-b4c8142a5723")
 			(effects
 				(font
 					(size 1 1)
@@ -4739,7 +4739,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3e2fa4e-e91a-4d0c-8ca8-3bc45c2503c2")
+			(uuid "5ab0b2b3-a983-48c1-af0f-caa2b16ebe42")
 			(effects
 				(font
 					(size 1 1)
@@ -4762,7 +4762,7 @@
 		)
 		(path "/048316d6-a057-4ba2-83ef-068bb9533692")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5683,7 +5683,7 @@
 			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "92b7fafa-d648-4b25-b940-7e53b8c37b6e")
+			(uuid "9bda6619-57ab-44dd-be17-71010a418de4")
 			(effects
 				(font
 					(size 1 1)
@@ -5694,7 +5694,7 @@
 		(property "Value" "M2.5 mount"
 			(at 0 3.65 0)
 			(layer "F.Fab")
-			(uuid "645135b2-027d-464d-a452-7f1dfdcbb417")
+			(uuid "9a0a2490-be83-4a89-b176-b2e26d8d0169")
 			(effects
 				(font
 					(size 1 1)
@@ -5706,7 +5706,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0f45f3a-1b88-4d75-b0c1-bf2cbb232253")
+			(uuid "36fa7888-4035-4830-9a61-a03f9eb46f81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5718,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5dd47bf2-29d4-439d-a2aa-c83e9e04d983")
+			(uuid "2bd709cb-ece1-4016-bba4-a0833d10c5a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5729,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e369863d-bba3-4aff-884c-34b02c21a0f8")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5789,7 +5789,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "58810bd6-ca2b-4a6f-b2bb-bee348336104")
+			(uuid "1e1544a0-d039-4c54-bfe5-2a7ee827ee2f")
 			(effects
 				(font
 					(size 1 1)
@@ -5802,7 +5802,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abab8a66-b647-4ee3-be80-3a6378a21afd")
+			(uuid "14eb985a-560f-40ab-a867-867df06d547b")
 			(effects
 				(font
 					(size 1 1)
@@ -5815,7 +5815,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d9b01d6-ca51-408c-a579-c25ef473a24c")
+			(uuid "84bfbd3f-e020-4e41-bb92-dbb6be3099ea")
 			(effects
 				(font
 					(size 1 1)
@@ -5828,7 +5828,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2f0d7b8-af5e-4200-a32a-affddb684170")
+			(uuid "ec56d3f6-4001-49e6-8105-52dd5a50684c")
 			(effects
 				(font
 					(size 1 1)
@@ -5851,7 +5851,7 @@
 		)
 		(path "/9671361b-3b51-4845-94d6-a4d8cdb90b14")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6705,7 +6705,7 @@
 			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dcf5b099-fdb7-4134-81b7-04908f1cc122")
+			(uuid "86a584fa-3238-4b92-bb81-f5d9fdad887d")
 			(effects
 				(font
 					(size 1 1)
@@ -6716,7 +6716,7 @@
 		(property "Value" "M2.5 mount"
 			(at 0 3.65 0)
 			(layer "F.Fab")
-			(uuid "dd814a17-6755-4053-b55a-afb7ca9015a1")
+			(uuid "67dd5cd4-bd48-490a-a9fc-ecab4a21b90b")
 			(effects
 				(font
 					(size 1 1)
@@ -6728,7 +6728,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a328a408-526f-4d5d-b8a0-6e87ff757c24")
+			(uuid "3f305610-0d54-44f2-8d14-a013b4bb32a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6740,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ffda455-f649-42fb-94bc-7ea1543f7cd4")
+			(uuid "e6d081be-b825-4a28-8348-1d43e9514c53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6751,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d844f707-7c17-4a2a-89f9-f3ab5a70692a")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6813,7 +6813,7 @@
 			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "58a31639-ab63-4bbc-b50c-d08fddd82ef1")
+			(uuid "12c0769e-f5b0-4cdd-a739-7d3e72b84435")
 			(effects
 				(font
 					(size 1 1)
@@ -6824,7 +6824,7 @@
 		(property "Value" "M2.5 mount"
 			(at 0 3.65 0)
 			(layer "F.Fab")
-			(uuid "31c2835b-1b21-4b71-8925-739254b14f94")
+			(uuid "00ea966f-43a5-45c4-9b38-c8f77ea5164b")
 			(effects
 				(font
 					(size 1 1)
@@ -6836,7 +6836,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2dae66e-f245-4c97-9f42-3695f88e0274")
+			(uuid "d1c25c08-bf42-4212-b5e2-99ef5a93fc8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6848,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "735b9a29-6a95-47c1-a696-902b1f4de1e5")
+			(uuid "36bc4eea-9607-4e38-bdbc-cae445c61801")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6859,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/3c0d1340-32b8-40ed-a067-5f7a90eb3ce7")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7306,7 +7306,7 @@
 			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9c78b286-fdd5-4d2e-9799-840a87a84ba1")
+			(uuid "5993d932-6fb5-4cb6-a906-22c6e85b21f0")
 			(effects
 				(font
 					(size 1 1)
@@ -7317,7 +7317,7 @@
 		(property "Value" "M2.5 mount"
 			(at 0 3.65 0)
 			(layer "F.Fab")
-			(uuid "0eb828d6-68e7-41d0-9531-f0312476def5")
+			(uuid "8965f30b-89d0-454f-a615-a2446263805f")
 			(effects
 				(font
 					(size 1 1)
@@ -7329,7 +7329,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b702df44-df4a-4fc9-9f7a-05c6aa5a8df8")
+			(uuid "92631edf-252b-4065-9b5c-7746e605180d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7341,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68fe9d38-b9bb-43c1-9b76-3e42baa2dcb5")
+			(uuid "9904c7f8-ad77-4f14-8a97-5d1d1786218d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7352,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/bacc9794-7325-4356-adf3-87765f583942")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8171,7 +8171,7 @@
 			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c923046a-7ce0-4be8-83d4-0a9def9c2399")
+			(uuid "bbf94134-b0c4-4a2e-bbd1-ad0864344393")
 			(effects
 				(font
 					(size 1 1)
@@ -8182,7 +8182,7 @@
 		(property "Value" "M2.5 mount"
 			(at 0 3.65 0)
 			(layer "F.Fab")
-			(uuid "abc0b298-c615-4361-aabb-a7d1389bc438")
+			(uuid "055f97f4-db90-47ee-84a2-1184064b5621")
 			(effects
 				(font
 					(size 1 1)
@@ -8194,7 +8194,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a13bac54-b233-4bf7-a719-b3bb74a200dd")
+			(uuid "1ad2e493-1318-4fe5-8fc9-f3eb9df0d445")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8206,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21168190-61a9-40d0-89e9-1f77ba937548")
+			(uuid "294fd9ed-7c6b-452b-8880-0504bffb87ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8217,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/897b36dc-5e00-4781-9695-f9572ec770d3")
 		(sheetname "/")
-		(sheetfile "MMS3_hat_templates.kicad_sch")
+		(sheetfile "MMS3_hat_GPIO_board.kicad_sch")
 		(units
 			(unit
 				(name "A")
